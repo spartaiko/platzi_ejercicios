@@ -1,0 +1,10 @@
+.avatar
+{
+    width: 50px;
+    margin-right: 12px;
+    display: inline-block;    
+} 
+.pokerow
+{
+    margin-left: 1px;
+}

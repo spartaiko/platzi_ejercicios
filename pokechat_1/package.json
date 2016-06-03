@@ -1,0 +1,13 @@
+{
+  "name": "pokechat",
+  "devDependencies": {
+    "babelify": "^6.4.0",
+    "browserify": "^13.0.1",
+    "react-dom": "^15.1.0",
+    "react": "^15.1.0",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "build": "browserify app.js > build.js -t babelify" 
+  }
+}
