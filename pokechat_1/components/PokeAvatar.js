@@ -2,7 +2,7 @@
 *Module dependecies
 */
 
-import ReactDOM from 'react-dom';
+import React from 'react';
 
 export default class PokeAvatar extends React.Component {
     render() {

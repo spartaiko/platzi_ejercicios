@@ -1,13 +1,8 @@
+import React from 'react';
 import ReactDOM from 'react-dom';
-import PokeTable from './components/PokeTable';
-
-var pokemons = [
-                {number: 1, name: 'Bulbasaur'},
-                {number: 2, name: 'Ivysaur'},
-                {number: 3, name: 'Venusaur'}
-            ];
+import PokeApp from './components/PokeApp.js';
             
             ReactDOM.render (
-            <PokeTable pokemons={pokemons} />,
+            <PokeApp />,
             document.getElementById('container')
             );
